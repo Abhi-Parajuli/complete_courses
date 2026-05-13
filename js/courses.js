@@ -1,0 +1,233 @@
+
+const COURSES = {
+  datascience: {
+    id: 'datascience',
+    title: 'Data Science',
+    icon: '📊',
+    color: '#3b82f6',
+    gradient: 'linear-gradient(135deg, #1d4ed8 0%, #06b6d4 100%)',
+    description: 'Master data analysis, visualization, statistics, and building data pipelines from scratch.',
+    tags: ['Python', 'Pandas', 'NumPy', 'Statistics'],
+    lessons: [
+      {
+        id: 'Table_of_Content',
+        title: 'Table of Content',
+        file: "courses/datascience/table_of_content.md",
+        duration: '',
+        difficulty: '',
+      },
+      {
+        id: 'chapter 1',
+        title: 'What Is data Science',
+        file: "courses/datascience/chapter1.md",
+        duration: '30 min',
+        difficulty: 'Beginner',
+      },
+      {
+        id: 'chapter 2',
+        title: 'Python for Data Science',
+        file: "courses/datascience/chapter2.md",
+        duration: '50 min',
+        difficulty: 'Beginner',
+      },
+       {
+        id: 'chapter 3',
+        title: 'Mathematics for Data Science',
+        file: "courses/datascience/chapter3.md",
+        duration: '30 min',
+        difficulty: 'intermidiate',
+      },
+       
+      {
+        id: 'chapter 4',
+        title: 'Numpy - Numerical Computing',
+        file: "courses/datascience/chapter4.md",
+        duration: '50 min',
+        difficulty: 'beginer-intermidiate',
+      },
+      {
+        id: 'chapter 5',
+        title: 'Pandas Data Wraping',
+        file: "courses/datascience/chapter5.md",
+        duration: '40 min',
+        difficulty: 'beginer-intermidiate',
+      },
+      {
+        id: 'chapter 6',
+        title: 'Data Visualization',
+        file: "courses/datascience/chapter6.md",
+        duration: '50 min',
+        difficulty: 'beginer-intermidiate',
+      },
+      {
+        id: 'chapter 7',
+        title: 'Exploratory Data Analysis(EDA)',
+        file: "courses/datascience/chapter7.md",
+        duration: '60 min',
+        difficulty: 'beginer-intermidiate',
+      },
+      {
+        id: 'chapter 8',
+        title: 'SQL for Data Science',
+        file: "courses/datascience/chapter8.md",
+        duration: '30 min',
+        difficulty: 'beginer',
+      },
+      {
+        id: 'chapter 9',
+        title: 'Introduction to Machine Learning',
+        file: "courses/datascience/chapter9.md",
+        duration: '30 min',
+        difficulty: 'intermidiate',
+      },
+      {
+        id: 'chapter 10',
+        title: 'Supervised Learning - Regression',
+        file: "courses/datascience/chapter10.md",
+        duration: '30 min',
+        difficulty: 'intermidiate',
+      },
+      {
+        id: 'chapter 11',
+        title: 'Supervised Learning - Classification',
+        file: "courses/datascience/chapter11.md",
+        duration: '30 min',
+        difficulty: 'intermidiate',
+      },
+      {
+        id: 'chapter 12',
+        title: 'Unsupervised Learning',
+        file: "courses/datascience/chapter12.md",
+        duration: '30 min',
+        difficulty: 'intermidiate',
+      },
+      {
+        id: 'chapter 13',
+        title: ' Ensemble Methods & Advanced ML',
+        file: "courses/datascience/chapter13.md",
+        duration: '30 min',
+        difficulty: 'intermidiate-Advance',
+      },
+       {
+        id: 'chapter 14',
+        title: ' Model Evalutation and Feature',
+        file: "courses/datascience/chapter14.md",
+        duration: '30 min',
+        difficulty: 'intermidiate-Advance',
+      },
+       {
+        id: 'chapter 15',
+        title: 'Introductio to Deep Learning',
+        file: "courses/datascience/chapter15.md",
+        duration: '30 min',
+        difficulty: 'Advance',
+      },
+       {
+        id: 'chapter 16',
+        title: ' Real-World Data Science Projects',
+        file: "courses/datascience/chapter16.md",
+        duration: '60 min',
+        difficulty: 'Advance',
+      },
+       {
+        id: 'chapter 17',
+        title: ' Data Science Career and Interview Preperation',
+        file: "courses/datascience/chapter17.md",
+        duration: '60 min',
+        difficulty: 'Advance',
+      },
+      {
+        id: 'Appendix',
+        title: 'Appendix',
+        file: "courses/datascience/Appendix.md",
+        duration: '',
+        difficulty: '',
+      },
+
+
+
+
+
+    ],
+  },
+
+  cybersecurity: {
+    id: 'cybersecurity',
+    title: 'Cybersecurity',
+    icon: '🔐',
+    color: '#ef4444',
+    gradient: 'linear-gradient(135deg, #dc2626 0%, #f97316 100%)',
+    description: 'Learn ethical hacking, network security, cryptography, and how to defend against attacks.',
+    tags: ['Networking', 'Linux', 'Penetration Testing', 'Cryptography'],
+    lessons: [
+      {
+        id: 'intro-to-cybersecurity',
+        title: 'Introduction to Cybersecurity',
+        file: 'courses/cybersecurity/01-intro-to-cybersecurity.md',
+        duration: '20 min',
+        difficulty: 'Beginner',
+      },
+      {
+        id: 'networking-fundamentals',
+        title: 'Networking Fundamentals',
+        file: 'courses/cybersecurity/02-networking-fundamentals.md',
+        duration: '30 min',
+        difficulty: 'Beginner',
+      },
+    ],
+  },
+
+  ml: {
+    id: 'ml',
+    title: 'Machine Learning',
+    icon: '🤖',
+    color: '#8b5cf6',
+    gradient: 'linear-gradient(135deg, #7c3aed 0%, #ec4899 100%)',
+    description: 'Build intelligent systems using supervised, unsupervised, and reinforcement learning.',
+    tags: ['Scikit-learn', 'TensorFlow', 'PyTorch', 'Neural Networks'],
+    lessons: [
+      {
+        id: 'intro-to-ml',
+        title: 'Introduction to Machine Learning',
+        file: 'courses/ml/01-intro-to-ml.md',
+        duration: '20 min',
+        difficulty: 'Beginner',
+      },
+      {
+        id: 'supervised-learning',
+        title: 'Supervised Learning in Depth',
+        file: 'courses/ml/02-supervised-learning.md',
+        duration: '35 min',
+        difficulty: 'Intermediate',
+      },
+    ],
+  },
+
+  webdev: {
+    id: 'webdev',
+    title: 'Full-Stack Dev',
+    icon: '💻',
+    color: '#10b981',
+    gradient: 'linear-gradient(135deg, #059669 0%, #0ea5e9 100%)',
+    description: 'Go from zero to deploying full web apps — HTML, CSS, JavaScript, Node.js, and databases.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'React'],
+    lessons: [
+      {
+        id: 'intro-to-fullstack',
+        title: 'Introduction to Full-Stack Dev',
+        file: 'courses/webdev/01-intro-to-fullstack.md',
+        duration: '25 min',
+        difficulty: 'Beginner',
+      },
+      {
+        id: 'html-css-in-depth',
+        title: 'HTML & CSS In Depth',
+        file: 'courses/webdev/02-html-css-in-depth.md',
+        duration: '30 min',
+        difficulty: 'Beginner',
+      },
+    ],
+  },
+};
+
+export default COURSES;

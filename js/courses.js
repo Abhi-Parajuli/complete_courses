@@ -12,7 +12,7 @@ const COURSES = {
       {
       id: 'daily_routine',
         title: '3years_daily_works',
-        file: "courses/datascience/3years_daily_works.md",
+        file: "courses/datascience/3years_daily_works.md"
         
       },
       {

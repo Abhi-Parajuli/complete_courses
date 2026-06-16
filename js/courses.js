@@ -11,8 +11,9 @@ const COURSES = {
     lessons: [
       {
       id: 'daily_routine',
-        title: '3years_daily_works',
-        file: "courses/datascience/3years_daily_works.md"
+        title: '3years daily works',
+        file: "courses/datascience/3years_daily_works.md",
+         
         
       },
       {
@@ -149,11 +150,6 @@ const COURSES = {
         duration: '',
         difficulty: '',
       },
-
-
-
-
-
     ],
   },
 

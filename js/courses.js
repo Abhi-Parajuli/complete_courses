@@ -10,6 +10,12 @@ const COURSES = {
     tags: ['Python', 'Pandas', 'NumPy', 'Statistics'],
     lessons: [
       {
+      id: 'daily_routine',
+        title: '3years_daily_works',
+        file: "courses/datascience/3years_daily_works.md",
+        
+      },
+      {
         id: 'Table_of_Content',
         title: 'Table of Content',
         file: "courses/datascience/table_of_content.md",
